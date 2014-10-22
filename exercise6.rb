@@ -17,4 +17,11 @@ puts grocery_list[1]
 #Display the second item in the list.
 
 puts grocery_list.sort
+#It turns out that everything in this grocery store you're visiting is stored alphabetically, 
 
+puts grocery_list.delete_at(3)   
+puts grocery_list
+
+# 変数で a = b からのa = 5 , b = 5 , 
+# a = 2 に書き換えても、b = 5のまま。しかし、<<　で配列に書き加えたら、それは新しい配列として認識される。
+# 削除しても同じ。
